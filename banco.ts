@@ -1,5 +1,4 @@
 
-
 export default abstract class Banco {
     nome_titular: string;
     cpf: string;
