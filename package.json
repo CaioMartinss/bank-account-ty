@@ -1,0 +1,27 @@
+{
+  "name": "bank-account-ty",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/banco.ts",
+  "scripts": {
+    "start": "node --loader ts-node/esm src/menu.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaioMartinss/bank-account-ty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaioMartinss/bank-account-ty/issues"
+  },
+  "homepage": "https://github.com/CaioMartinss/bank-account-ty#readme",
+  "dependencies": {
+    "inquirer": "^12.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
